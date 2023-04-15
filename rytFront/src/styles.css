@@ -6,7 +6,18 @@
   margin: 0;
   text-decoration: none;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-size: inherit;
+}
+
+body{
+  font-size: 20px;
+}
+
+/* ================header=============== */
 
 app-top-bar {
   padding: 30px 0;
@@ -17,13 +28,17 @@ app-top-bar {
   background: rgb(65, 186, 229);
 }
 
-.header-nav
-{
+.header-nav{
   display: flex;
   flex-direction: row;
+  font-size: 20px;  
 }
 
-.header-nav a{
-  margin-right: 20px;
+.header-nav > *{
+  margin-right: 50px;
   color: white;
+}
+
+.logo{
+  font-size: 40px;
 }
