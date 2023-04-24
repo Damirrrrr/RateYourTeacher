@@ -1,1 +1,7 @@
-<p>teacher works!</p>
+<ul>
+  <li *ngFor = "let teacher of teachers">
+    {{teacher.id}}.{{teacher.fullname}} - {{teacher.discipline}} - {{teacher.rating}} stars
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

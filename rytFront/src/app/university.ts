@@ -1,6 +1,7 @@
 interface University{
-    name: string;
-    id: number;
-    description: string;
-    img: string;
+  name: string;
+  id: number;
+  description: string;
+  img: string;
 }
+

@@ -1,7 +1,7 @@
-interface Teacher{
+export interface Teacher{
     id: number;
     fullname: string;
-    university: University;
+    university: string;
     rating: number;
     discipline: string;
     degree: string;
