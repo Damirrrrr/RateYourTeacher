@@ -1,9 +1,8 @@
-export interface University {
-  id: number;
+interface University{
   name: string;
-  img: string;
+  id: number;
   description: string;
-  url: string;
+  img: string;
 }
 
 export const universities = [

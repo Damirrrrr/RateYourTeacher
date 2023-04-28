@@ -15,4 +15,7 @@ export class TeacherService {
   getTeacher(id: number): Observable<Teacher>{
     return this.client.get<Teacher>(`${this.BASE_URL}/api/teachers/${id}/`)
   }
+  getTeachersUniversities(id: number): Observable<Teacher[]> {
+    return this.client.get<Teacher[]>(`${this.BASE_URL}/api/teachers/${id}/universities/`)
+  }
 }

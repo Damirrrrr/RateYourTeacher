@@ -27,3 +27,4 @@ export const teachers = [
       url: 'https://github.com/Beisenbek'
   }
   ]
+
