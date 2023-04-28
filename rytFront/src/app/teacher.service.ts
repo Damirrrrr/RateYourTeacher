@@ -15,8 +15,4 @@ export class TeacherService {
   getTeacher(id: number): Observable<Teacher>{
     return this.client.get<Teacher>(`${this.BASE_URL}/api/teachers/${id}/`)
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 8cb268aba4488bf10bb9368a21fa4a497f70fbf1
 }
